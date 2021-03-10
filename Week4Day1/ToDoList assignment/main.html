@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>My To Do List</h1>
+
+            <div class="instuctions1">
+                <p>(Cross out tasks using the checkbox on left. Delete tasks with trash icon on right.)</p>
+            </div>
+    </div>
+
+    
+
+
+
+    <div id=listBox>
+        <ul id="list">
+
+        </ul>
+    </div>
+
+    <div class="textBox">
+        <input type ="text" id="myInput"  placeholder="Type Task Here">
+        <button class="submitButton" type="button" onclick="newElement()">Add To List</button>
+    </div>
+
+    <div class="instuctions2">
+        <p>Press enter to add task!</p>
+    </div>
+    <script src="index.js" ></script>
+</body>
+</html>
